@@ -1,6 +1,8 @@
 import { Provider } from "react-redux"
 import store from "./Redux/Store"
 import UserContainer from "./Components/UserContainer"
+import ProductContainer from "./Components/ProductContainer"
+import PostsList from "./Components/PostsList"
 
 function App() {
     return (
@@ -8,6 +10,8 @@ function App() {
             <>
                 <h1>redux</h1>
                 <UserContainer />
+                <ProductContainer />
+                <PostsList />
             </>
         </Provider>
     )
